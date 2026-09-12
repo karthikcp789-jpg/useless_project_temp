@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="A mildly irresponsible AI for generating cursed food combinations." />
+		<title>Bad Ideas Kitchen | AI Cursed Food Generator</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body class="cursed-app">
+		<header class="cursed-header">
+			<a class="cursed-brand" href="roulette.html" aria-label="Bad Ideas Kitchen home"><span class="brand-stamp">BIK</span><span>BAD IDEAS<br /><b>KITCHEN</b></span></a>
+			<div class="header-status"><i></i> AI is awake <span>v.0.9.7</span></div>
+		</header>
+		<main class="cursed-main">
+			<section class="cursed-intro">
+				<div class="intro-kicker">/// experimental flavor lab</div>
+				<h1>Make something<br /><em>unforgivable.</em></h1>
+				<p>Tell the machine what you have. It will tell you what you should absolutely not do with it.</p>
+			</section>
+			<section class="generator-layout" aria-label="Cursed food generator">
+				<div class="control-panel">
+					<div class="panel-label"><span>01</span> SET THE PARAMETERS</div>
+					<label for="ingredients">What is lurking in your kitchen?</label>
+					<div class="input-wrap"><textarea id="ingredients" rows="3" maxlength="180" placeholder="e.g. leftover biryani, peanut butter, one brave banana"></textarea><span class="char-count" id="charCount">0 / 180</span></div>
+					<div class="mode-label">Choose your level of danger</div>
+					<div class="mode-switch" role="group" aria-label="Cursedness level">
+						<button class="mode-btn" data-mode="mild" type="button"><span>🌶</span> Mildly odd</button>
+						<button class="mode-btn active" data-mode="cursed" type="button"><span>☠</span> Cursed</button>
+						<button class="mode-btn" data-mode="feral" type="button"><span>⚠</span> Feral</button>
+					</div>
+					<button class="generate-btn" id="generateBtn" type="button"><span class="button-icon">↯</span> Generate bad idea <span class="button-arrow">→</span></button>
+					<p class="fine-print">Powered by vibes, patterns, and zero culinary oversight.</p>
+				</div>
+				<div class="result-panel" aria-live="polite">
+					<div class="result-empty" id="emptyState"><div class="empty-orbit"><span>?</span></div><p>YOUR NEXT MISTAKE<br /><strong>WILL APPEAR HERE</strong></p></div>
+					<div class="result-content hidden" id="resultContent">
+						<div class="result-topline"><span class="result-label">AI OUTPUT / <b id="resultMode">CURSED</b></span><span id="confidence">CONFIDENCE 94%</span></div>
+						<div class="result-emoji" id="resultEmoji">🍕</div>
+						<h2 id="resultTitle">The Midnight Masala Melt</h2>
+						<p class="result-description" id="resultDescription"></p>
+						<div class="recipe-grid"><div><span>CONTAINS</span><strong id="resultIngredients"></strong></div><div><span>THREAT LEVEL</span><strong id="resultThreat"></strong></div></div>
+						<div class="verdict"><span>AI VERDICT</span><p id="resultVerdict"></p></div>
+						<div class="result-actions"><button class="small-btn" id="copyBtn" type="button">Copy recipe</button><button class="small-btn accent-btn" id="remixBtn" type="button">Remix ↻</button></div>
+					</div>
+				</div>
+			</section>
+			<section class="history-section" id="historySection" hidden><div class="panel-label"><span>02</span> RECENT INCIDENTS</div><div class="history-list" id="historyList"></div></section>
+			<footer class="cursed-footer"><span>BAD IDEAS KITCHEN © 2026</span><span>DO NOT SERVE TO IMPRESSIVE PEOPLE</span></footer>
+		</main>
+		<script src="roulette.js"></script>
+	</body>
+</html>
