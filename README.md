@@ -25,23 +25,13 @@ by making everyone eat bad food
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- HTML, CSS, JavaScript
+- NONE
+- NONE
+-  VS Code, Python’s built-in http.server for localhost, Git
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
 
-### Implementation
-For Software:
-# Installation
-[commands]
 
-# Run
-[commands]
 
 ### Project Documentation
 For Software:
