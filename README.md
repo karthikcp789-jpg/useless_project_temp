@@ -46,7 +46,7 @@ For Software:
 
 
 
-https://badkitchen.vercel.app/-final_hosted_product(copy and paste on any browser)
+https://badkitchen.vercel.app/  -final_hosted_product(copy and paste on any browser)
 
 
 
