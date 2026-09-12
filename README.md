@@ -37,50 +37,22 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1037" height="501" alt="screenshot-1" src="https://github.com/user-attachments/assets/173709b5-d7b0-438f-8e37-3c0ee82d6118" /> screenshot-1(these shows what the user will first see when entering the website)
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+<img width="1040" height="709" alt="screenshot-2" src="https://github.com/user-attachments/assets/72eeaf50-aaf9-41a3-9107-a0e597513154" />(it is the place we add our input which is the 3 random recipe, and on the biiger screen we will get our random disturbing recipe,and it also shows the level of bas in which we need our combined dish as)
 
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+<img width="1033" height="335" alt="sreenshot-3" src="https://github.com/user-attachments/assets/0d0a705f-331b-4c21-aa66-3477e7304d0a" />(these shows the recent recepies recieved by the user)
 
-For Hardware:
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+https://badkitchen.vercel.app/-final_hosted_product(copy and paste on any browser)
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
-### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
-
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- karthik c p: made the whole thing
+
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
