@@ -2,26 +2,25 @@
 
 
 
-# [Project Name] 🎯
+# BAD KITCHEN IDEAS 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: CHOP SUEY
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: KARTHIK C P - Collage of engineering MUNNAR
+
 
 ### Project Description
-[2-3 lines about what your project does]
+these projects inputs 3 random recipies and on output gives a very horrendous combo of a dish
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+giving bad ideas
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+by making everyone eat bad food
 
 ## Technical Details
 ### Technologies/Components Used
